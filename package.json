@@ -1,5 +1,16 @@
-MERCADOPAGO_ACCESS_TOKEN=
-NEXT_PUBLIC_MERCADOPAGO_PUBLIC_KEY=
-NEXT_PUBLIC_SITE_URL=https://seu-dominio.com.br
-SUPABASE_URL=
-SUPABASE_ANON_KEY=
+{
+  "name": "hype-closet",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@supabase/supabase-js": "latest"
+  }
+}
